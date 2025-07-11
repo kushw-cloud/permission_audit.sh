@@ -1,5 +1,5 @@
 #!/bin/bash
-echo  Starting Linux File Permission Audit..."
+echo " Starting Linux File Permission Audit..."
 
 echo -e "\n[1] World-writable files:"
 find / -type f -perm -0002 2>/dev/null
