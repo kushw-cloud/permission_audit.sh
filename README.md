@@ -15,5 +15,5 @@ It helps identify:
 ## 📦 Usage
 
 ```bash
-chmod +x perm_audit.sh
+sudo chmod +x perm_audit.sh
 ./perm_audit.sh
