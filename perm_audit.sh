@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "ðŸ” Starting Linux File Permission Audit..."
+echo  Starting Linux File Permission Audit..."
 
 echo -e "\n[1] World-writable files:"
 find / -type f -perm -0002 2>/dev/null
@@ -28,4 +28,4 @@ find /etc -type f -perm /o=r 2>/dev/null
 echo -e "\n[9] Writable directories in \$PATH:"
 echo $PATH | tr ':' '\n' | while read dir; do [ -w "$dir" ] && echo "Writable: $dir"; done
 
-echo -e "\nâœ… Audit Complete."
+echo -e "\n Audit Complete."
